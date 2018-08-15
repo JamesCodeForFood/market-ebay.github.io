@@ -1179,13 +1179,19 @@ header {
     font-weight: 500;
   }
   .featured-collections p:nth-child(2),
-  .trending-coll__header p:nth-child(2),
   .daily-deals p:nth-child(2) {
     margin-right: 30px;
     margin-top: 22px;
     font-size: 9pt;
     top: 0;
     left: 0;
+  }
+  .trending-coll__header p:nth-child(2) {
+    margin-top: 30px;
+    font-size: 9pt;
+    left: initial;
+    margin-left: -197px;
+    float: left;
   }
   .trending-coll__header p:nth-child(1) {
     margin-left: 10px;
